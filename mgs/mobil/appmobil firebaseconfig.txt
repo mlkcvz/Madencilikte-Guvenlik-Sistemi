@@ -1,0 +1,12 @@
+ComponentDidMount = () => {
+    var firebaseConfig = {
+      apiKey: "AIzaSyAAuBm6tSbI4fhqOFbjA-i9ADEXRRZvokA",
+      authDomain: "appmobil-6c630.firebaseapp.com",
+      projectId: "appmobil-6c630",
+      storageBucket: "appmobil-6c630.appspot.com",
+      messagingSenderId: "654625011727",
+      appId: "1:654625011727:web:d067aeded2240146034b7a"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  }
